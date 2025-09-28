@@ -5,7 +5,6 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
   SheetFooter,
   SheetHeader,
   SheetTitle,
@@ -84,9 +83,7 @@ export default function Navbar() {
               className="w-[280px] border-white/20 border-l sm:w-[350px]"
             >
               <SheetHeader className="border-b">
-                <SheetTitle className="text-left">
-                  Menu
-                </SheetTitle>
+                <SheetTitle className="text-left">Menu</SheetTitle>
               </SheetHeader>
 
               <div className="flex flex-col gap-6">

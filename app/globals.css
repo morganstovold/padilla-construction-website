@@ -55,7 +55,7 @@
   --primary: oklch(0.6231 0.188 259.81);
   --primary-foreground: oklch(0.97 0 0);
 
-  --border-alternate: oklch(1 0 0 / 0.250);
+  --border-alternate: oklch(1 0 0 / 0.25);
 
   --background: oklch(1 0 0);
   --foreground: oklch(0.1261 0.0169 44.04);
@@ -80,7 +80,9 @@
   * {
     @apply border-border outline-ring/50;
   }
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     @apply box-border;
   }
   html {
