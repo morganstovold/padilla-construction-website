@@ -17,7 +17,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-black/75" />
       </div>
-      <div className="container z-1 mx-auto flex h-full w-full flex-col items-center justify-center text-center">
+      <div className="container z-1 mx-auto flex h-full w-full flex-col items-center justify-center px-4 text-center sm:px-6 lg:px-8">
         <h1 className="mb-5 font-medium text-2xl md:mb-6 md:text-4xl lg:text-6xl">
           Transforming Spaces & Building Dreams
         </h1>
