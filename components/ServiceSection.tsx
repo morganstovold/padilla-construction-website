@@ -19,11 +19,13 @@ export default function ServiceSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
-            <p className="mb-3 md:mb-4">Service</p>
-            <h1 className="mb-5 text-6xl md:mb-6">
+            <p className="mb-3 font-semibold text-sm tracking-wide sm:text-base md:mb-4">
+              Service
+            </p>
+            <h1 className="mb-5 text-4xl md:mb-6 lg:text-6xl">
               Personalized approach to your project
             </h1>
-            <p className="mb-5 md:mb-6 md:text-md">
+            <p className="mb-5 text-base md:mb-6 md:text-md">
               We listen carefully to understand your unique vision. Our team
               provides tailored solutions from consultation to completion.
             </p>

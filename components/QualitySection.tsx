@@ -22,7 +22,7 @@ export default function QualitySection() {
             <p className="mb-3 font-semibold text-sm tracking-wide sm:text-base md:mb-4">
               Quality
             </p>
-            <h1 className="mb-5 text-4xl md:mb-6">
+            <h1 className="mb-5 text-4xl md:mb-6 lg:text-6xl">
               Uncompromising craftsmanship and materials
             </h1>
             <p className="mb-5 text-base md:mb-6 md:text-md">
