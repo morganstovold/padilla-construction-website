@@ -9,15 +9,15 @@ export default function ContactUsSection() {
     {
       icon: MailIcon,
       title: "Email",
-      value: "info@padilladesignbuild.com",
-      href: "mailto:info@padilladesignbuild.com",
+      value: "noe@PadillaDesignandBuild.com",
+      href: "mailto:noe@PadillaDesignandBuild.com",
       description: "Send us an email anytime",
     },
     {
       icon: PhoneIcon,
       title: "Phone",
-      value: "(925) 555-0123",
-      href: "tel:+19255550123",
+      value: "(925) 305-6316",
+      href: "tel:+19253056316",
       description: "Mon-Fri from 8am to 5pm",
     },
     {

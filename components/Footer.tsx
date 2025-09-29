@@ -1,9 +1,4 @@
-import {
-  FacebookIcon,
-  GoogleIcon,
-  InstagramIcon,
-  TwitterIcon,
-} from "./BrandIcons";
+import { GoogleIcon, YelpIcon } from "./BrandIcons";
 import Logo from "./Logo";
 import { buttonVariants } from "./ui/button";
 import { ViewLink } from "./ViewLink";
@@ -11,16 +6,22 @@ import { ViewLink } from "./ViewLink";
 export default function Footer() {
   const navLinks = [
     { href: "/", label: "Home" },
+    { href: "#whychoose", label: "Why Us" },
     { href: "#services", label: "Services" },
-    { href: "/about", label: "About" },
-    { href: "/contact", label: "Contact" },
+    { href: "#contact", label: "Contact" },
   ];
 
   const socialLinks = [
-    { href: "", icon: GoogleIcon, label: "Google" },
-    { href: "", icon: FacebookIcon, label: "Facebook" },
-    { href: "", icon: InstagramIcon, label: "Instagram" },
-    { href: "", icon: TwitterIcon, label: "Twitter" },
+    {
+      href: "https://www.yelp.com/biz/padilla-design-and-build-alamo",
+      icon: YelpIcon,
+      label: "Yelp",
+    },
+    {
+      href: "",
+      icon: GoogleIcon,
+      label: "Google",
+    },
   ];
 
   return (

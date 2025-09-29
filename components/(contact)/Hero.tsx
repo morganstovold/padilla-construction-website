@@ -1,52 +1,135 @@
-import { CircleArrowDownIcon } from "lucide-react";
+"use client";
+
 import Image from "next/image";
-import Background2 from "@/public/background-2.jpg";
+import { useEffect, useState } from "react";
+import Background2 from "@/public/kitchen-5.jpg";
 import Navbar from "../Navbar";
 import { buttonVariants } from "../ui/button";
 import { ViewLink } from "../ViewLink";
 
 export default function Hero() {
+  const [scrollY, setScrollY] = useState(0);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const parallaxOffset = scrollY * 0.5;
+
   return (
-    <section className="relative flex max-h-[60rem] min-h-svh w-full flex-col items-center justify-center overflow-hidden bg-background text-white">
-      <Navbar />
-      <div className="absolute inset-0 z-0">
+    <section className="relative h-[calc(100vh-12rem)] w-full overflow-hidden bg-black text-white">
+      {/* Background Image with Parallax */}
+      <div
+        className="absolute inset-0"
+        style={{ transform: `translateY(${parallaxOffset}px)` }}
+      >
         <Image
           src={Background2}
-          className="size-full object-cover"
-          alt="Background"
+          className="h-[120%] w-full object-cover"
+          alt="Contact us"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/75" />
       </div>
-      <div className="container z-1 mx-auto flex h-full w-full flex-col items-center justify-center px-4 text-center sm:px-6 lg:px-8">
-        <h1 className="mb-5 font-medium text-2xl md:mb-6 md:text-4xl lg:text-6xl">
-          Transforming Spaces & Building Dreams
-        </h1>
-        <span className="text-base">
-          Creative and innovative solutions for your construction needs
-        </span>
-        <div className="mt-6 flex items-center justify-center gap-4 md:mt-8">
-          <ViewLink
-            href="/about"
-            className={buttonVariants({ size: "lg", className: "min-w-32" })}
+
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Centered Content */}
+      <div className="relative z-10 flex h-full w-full items-center justify-center px-4">
+        <div
+          className={`max-w-4xl text-center transition-all duration-1500 ${
+            isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+          }`}
+        >
+          {/* Small Tag */}
+          <div
+            className={`mb-6 inline-block rounded-full border border-white/30 bg-white/10 px-4 py-2 backdrop-blur-md transition-all duration-1000 ${
+              isVisible
+                ? "translate-y-0 opacity-100"
+                : "translate-y-4 opacity-0"
+            }`}
           >
-            About Us
-          </ViewLink>
-          <ViewLink
-            href="/contact"
-            className={buttonVariants({
-              size: "lg",
-              variant: "outline",
-              className: "min-w-32",
-            })}
+            <span className="font-light text-white text-xs tracking-widest sm:text-sm">
+              LET'S BUILD TOGETHER
+            </span>
+          </div>
+
+          {/* Main Headline */}
+          <h1
+            className={`mb-6 font-light text-4xl text-white leading-tight transition-all delay-200 duration-1000 sm:text-5xl md:text-6xl lg:text-7xl ${
+              isVisible
+                ? "translate-y-0 opacity-100"
+                : "translate-y-4 opacity-0"
+            }`}
           >
-            Contact Us
-          </ViewLink>
+            Get in <span className="font-normal text-tertiary">Touch</span>
+          </h1>
+
+          {/* Subtitle */}
+          <p
+            className={`mx-auto mb-12 max-w-2xl font-light text-base text-shadow-lg text-white/90 transition-all delay-400 duration-1000 sm:text-lg md:text-xl ${
+              isVisible
+                ? "translate-y-0 opacity-100"
+                : "translate-y-4 opacity-0"
+            }`}
+          >
+            Ready to transform your space? Let's discuss your project and bring
+            your vision to life.
+          </p>
+
+          {/* CTA Button */}
+          <div
+            className={`flex flex-col items-center justify-center gap-4 transition-all delay-600 duration-1000 sm:flex-row ${
+              isVisible
+                ? "translate-y-0 opacity-100"
+                : "translate-y-4 opacity-0"
+            }`}
+          >
+            <ViewLink
+              href="#contact-form"
+              className={buttonVariants({ variant: "secondary", size: "lg" })}
+            >
+              Start Your Project
+            </ViewLink>
+          </div>
         </div>
       </div>
 
-      <ViewLink href="#whychoose" className="absolute bottom-1/6 opacity-50">
-        <CircleArrowDownIcon className="size-8 animate-bounce" />
+      {/* Scroll Indicator */}
+      <ViewLink
+        href="#contact-form"
+        className={`-translate-x-1/2 absolute bottom-8 left-1/2 z-20 flex flex-col items-center gap-2 transition-all delay-800 duration-1000 ${
+          isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+        }`}
+      >
+        <span className="font-light text-white text-xs tracking-widest opacity-70">
+          SCROLL
+        </span>
+        <svg
+          className="h-6 w-6 animate-bounce text-white opacity-70"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <title>Scroll Indicator</title>
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
       </ViewLink>
+
+      {/* Decorative Corner Elements */}
+      <div className="pointer-events-none absolute inset-0 z-5">
+        <div className="absolute top-20 left-4 h-16 w-16 border-white/20 border-t-2 border-l-2 sm:top-32 sm:left-8 sm:h-24 sm:w-24" />
+        <div className="absolute right-4 bottom-20 h-16 w-16 border-white/20 border-r-2 border-b-2 sm:right-8 sm:bottom-32 sm:h-24 sm:w-24" />
+      </div>
     </section>
   );
 }

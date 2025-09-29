@@ -86,10 +86,10 @@
     @apply box-border;
   }
   html {
-    @apply scroll-smooth overflow-x-hidden;
+    @apply scroll-smooth overflow-x-hidden h-dvh;
   }
   body {
-    @apply bg-background text-foreground font-body overflow-x-hidden h-dvh;
+    @apply bg-background text-foreground font-body overflow-x-hidden;
   }
 
   h1,
