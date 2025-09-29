@@ -37,6 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <StructuredData data={businessSchema} />
+        <meta name="description" content={siteConfig.description} />
       </head>
       <body
         className={`${robotoCondensed.variable} ${poppins.variable} antialiased`}

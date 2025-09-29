@@ -11,20 +11,21 @@ export default function ServicesSection() {
   const services = [
     {
       tag: "Remodel",
-      title: "Home renovation and remodeling",
+      title: "Kitchen & Bathroom Remodeling",
       description:
-        "Transform your living spaces with expert design and construction",
+        "Expert renovation of kitchens and bathrooms with quality craftsmanship and attention to detail",
       image: BackgroundImage1,
-      link: "#",
-      linkText: "View Projects",
+      link: "/contact",
+      linkText: "Request Quote",
     },
     {
-      tag: "Build",
-      title: "New construction projects",
-      description: "Creating modern spaces from foundation to finish",
+      tag: "Renovate",
+      title: "Home Renovations",
+      description:
+        "Complete interior transformations including bedrooms, living rooms, and custom projects",
       image: BackgroundImage2,
-      link: "#",
-      linkText: "Explore Services",
+      link: "/contact",
+      linkText: "Get Started",
     },
   ];
 
@@ -75,14 +76,14 @@ export default function ServicesSection() {
           variants={headerVariants}
         >
           <p className="font-semibold text-sm text-tertiary uppercase tracking-widest sm:text-base">
-            Services
+            Our Services
           </p>
           <h2 className="text-3xl leading-tight sm:text-4xl lg:text-5xl xl:text-6xl">
-            Our construction solutions
+            Expert home remodeling services
           </h2>
           <p className="text-base text-white/80 sm:text-lg">
-            Comprehensive building services for residential and commercial
-            projects
+            Specializing in kitchen and bathroom renovations throughout the Bay
+            Area
           </p>
         </motion.div>
 

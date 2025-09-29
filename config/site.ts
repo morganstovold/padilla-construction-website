@@ -45,49 +45,43 @@ export const siteConfig = {
       name: "Kitchen Remodeling",
       slug: "kitchen-remodeling",
       description:
-        "Complete kitchen renovations with custom design and expert craftsmanship",
+        "Complete kitchen renovations with custom cabinets, countertops, and modern appliances",
     },
     {
       name: "Bathroom Remodeling",
       slug: "bathroom-remodeling",
       description:
-        "Transform your bathroom with modern fixtures and elegant design",
+        "Full bathroom renovations including fixtures, tile work, and custom vanities",
     },
     {
-      name: "Home Renovations",
-      slug: "home-renovations",
-      description:
-        "Complete home renovation services from concept to completion",
+      name: "Interior Renovations",
+      slug: "interior-renovations",
+      description: "Bedroom, living room, and whole-home interior remodeling",
     },
     {
-      name: "Interior Remodeling",
-      slug: "interior-remodeling",
-      description: "Bedroom, living room, and interior space transformations",
-    },
-    {
-      name: "New Construction",
-      slug: "new-construction",
-      description:
-        "Quality new construction projects built to your specifications",
-    },
-    {
-      name: "Market Prep",
+      name: "Market Prep & Staging",
       slug: "market-prep",
-      description: "Prepare your home for sale with strategic improvements",
+      description:
+        "Strategic home improvements to maximize sale value and appeal",
+    },
+    {
+      name: "Custom Carpentry",
+      slug: "custom-carpentry",
+      description: "Custom built-ins, trim work, and finish carpentry",
     },
   ],
 
   keywords: [
-    "home remodeling Alamo CA",
-    "kitchen remodeling Alamo",
-    "bathroom renovation Danville",
-    "home renovation Walnut Creek",
-    "construction company Contra Costa County",
-    "interior remodeling San Ramon",
-    "home improvement Alamo",
-    "kitchen renovation Bay Area",
-    "general contractor Alamo CA",
-    "residential remodeling Danville",
+    "kitchen remodeling Alamo CA",
+    "bathroom renovation Alamo",
+    "home remodeling Walnut Creek",
+    "kitchen renovation San Ramon",
+    "bathroom remodel Danville",
+    "interior remodeling Contra Costa County",
+    "home improvement Alamo California",
+    "residential remodeling Bay Area",
+    "kitchen contractor Alamo",
+    "bathroom contractor Walnut Creek",
   ],
 
   social: {

@@ -33,11 +33,12 @@ export default function CTA() {
             Let's Build Together
           </p>
           <h2 className="mb-6 text-3xl leading-tight sm:text-4xl md:mb-8 lg:text-5xl xl:text-6xl">
-            Ready to start your project?
+            Ready to transform your home?
           </h2>
           <p className="mb-8 text-base text-muted-foreground sm:text-lg md:mb-10 md:text-xl">
-            Get a free consultation and quote for your next construction or
-            renovation project. We're ready to bring your vision to life.
+            Get a free consultation for your kitchen, bathroom, or home
+            renovation project. Serving Alamo, Walnut Creek, San Ramon, and
+            surrounding areas.
           </p>
           <div className="flex items-center justify-center gap-4">
             <ViewLink

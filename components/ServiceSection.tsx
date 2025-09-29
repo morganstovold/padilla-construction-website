@@ -67,11 +67,12 @@ export default function ServiceSection() {
               Service
             </p>
             <h2 className="mb-5 text-3xl leading-tight sm:text-4xl md:mb-6 lg:text-5xl xl:text-6xl">
-              Personalized approach to your project
+              Your vision, our expertise
             </h2>
             <p className="mb-6 text-base text-white/80 md:mb-8 md:text-lg">
-              We listen carefully to understand your unique vision. Our team
-              provides tailored solutions from consultation to completion.
+              From the initial consultation to the final walkthrough, owner Noe
+              Padilla stays involved every step of the way, ensuring your
+              project is completed on time and within budget.
             </p>
 
             <div className="mb-8 space-y-3">

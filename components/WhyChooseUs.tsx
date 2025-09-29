@@ -12,22 +12,23 @@ export default function WhyChooseUsSection() {
   const features = [
     {
       icon: InfoIcon,
-      title: "Expert Craftsmanship",
+      title: "20+ Years Experience",
       description:
-        "Decades of experience delivering precision and quality in every project",
+        "Over two decades of proven expertise in residential remodeling and renovation",
       image: BackgroundImage1,
     },
     {
       icon: InfoIcon,
-      title: "Innovative Design",
+      title: "Quality Craftsmanship",
       description:
-        "Creative solutions that blend functionality with aesthetic excellence",
+        "Premium materials and skilled tradespeople ensure every project exceeds expectations",
       image: BackgroundImage2,
     },
     {
       icon: InfoIcon,
-      title: "Client-Focused Approach",
-      description: "Your vision guides our work from concept to completion",
+      title: "Personalized Service",
+      description:
+        "Owner-involved on every project from initial consultation to final walkthrough",
       image: BackgroundImage3,
     },
   ];

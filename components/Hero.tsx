@@ -54,7 +54,7 @@ export default function Hero() {
             }`}
           >
             <span className="font-light text-white text-xs tracking-widest sm:text-sm">
-              CREATIVE & INNOVATIVE SOLUTIONS
+              OVER 20 YEARS OF EXPERIENCE
             </span>
           </div>
 
@@ -66,9 +66,11 @@ export default function Hero() {
                 : "translate-y-4 opacity-0"
             }`}
           >
-            Transforming Spaces
+            Transforming Homes
             <br />
-            <span className="font-normal text-tertiary">Building Dreams</span>
+            <span className="font-normal text-tertiary">
+              One Room at a Time
+            </span>
           </h1>
 
           {/* Subtitle */}
@@ -79,7 +81,7 @@ export default function Hero() {
                 : "translate-y-4 opacity-0"
             }`}
           >
-            Where craftsmanship meets innovation in every detail
+            Expert kitchen and bathroom remodeling serving the Bay Area
           </p>
 
           {/* CTA Buttons */}

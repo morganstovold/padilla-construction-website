@@ -6,9 +6,9 @@ import { ViewLink } from "./ViewLink";
 export default function Footer() {
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "#whychoose", label: "Why Us" },
-    { href: "#services", label: "Services" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#whychoose", label: "Why Us" },
+    { href: "/#services", label: "Services" },
+    { href: "/contact", label: "Contact" },
   ];
 
   const socialLinks = [
