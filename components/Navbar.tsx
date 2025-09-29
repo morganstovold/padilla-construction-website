@@ -40,7 +40,7 @@ export default function Navbar() {
         variant: "link",
         className: mobile
           ? "group !no-underline relative justify-start p-0 font-medium text-lg tracking-wide hover:text-tertiary"
-          : "group !no-underline relative whitespace-nowrap font-medium text-base text-shadow-lg tracking-wide hover:text-tertiary",
+          : "group !no-underline relative whitespace-nowrap font-medium text-base text-shadow-lg text-white tracking-wide hover:text-tertiary",
       })}
     >
       <div className="absolute bottom-0 left-0 h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />
