@@ -89,7 +89,7 @@
     @apply scroll-smooth overflow-x-hidden;
   }
   body {
-    @apply bg-background text-foreground font-body overflow-x-hidden min-h-svh;
+    @apply bg-background text-foreground font-body overflow-x-hidden h-dvh;
   }
 
   h1,
