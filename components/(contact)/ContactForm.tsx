@@ -95,7 +95,7 @@ export default function ContactForm() {
           viewport={{ once: true, amount: 0.3 }}
           variants={headerVariants}
         >
-          <p className="font-semibold text-sm text-tertiary uppercase tracking-widest sm:text-base">
+          <p className="font-semibold text-shadow-xs text-sm text-tertiary uppercase tracking-widest sm:text-base">
             Request a Quote
           </p>
           <h2 className="text-3xl leading-tight sm:text-4xl lg:text-5xl xl:text-6xl">

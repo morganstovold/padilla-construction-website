@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { StructuredData } from "@/components/StructuredData";
 import { siteConfig } from "@/config/site";
 import { MotionWrapper } from "@/lib/lazy-ui";
@@ -46,6 +47,7 @@ export default function RootLayout({
           <ViewTransitions />
           {children}
         </MotionWrapper>
+        <Analytics />
       </body>
     </html>
   );

@@ -29,7 +29,7 @@ export default function CTA() {
           variants={ctaVariants}
           className="mx-auto max-w-3xl"
         >
-          <p className="mb-4 font-semibold text-sm text-tertiary uppercase tracking-widest sm:text-base">
+          <p className="mb-4 font-semibold text-shadow-xs text-sm text-tertiary uppercase tracking-widest sm:text-base">
             Let's Build Together
           </p>
           <h2 className="mb-6 text-3xl leading-tight sm:text-4xl md:mb-8 lg:text-5xl xl:text-6xl">

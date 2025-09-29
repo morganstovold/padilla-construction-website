@@ -47,7 +47,7 @@ export default function QualitySection() {
             viewport={{ once: true, amount: 0.3 }}
             variants={contentVariants}
           >
-            <p className="mb-3 font-semibold text-sm text-tertiary uppercase tracking-widest sm:text-base md:mb-4">
+            <p className="mb-3 font-semibold text-shadow-xs text-sm text-tertiary uppercase tracking-widest sm:text-base md:mb-4">
               Quality
             </p>
             <h2 className="mb-5 text-3xl leading-tight sm:text-4xl md:mb-6 lg:text-5xl xl:text-6xl">
