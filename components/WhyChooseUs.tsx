@@ -117,7 +117,7 @@ export default function WhyChooseUsSection() {
                     className="size-full object-cover transition-transform duration-400 group-hover:scale-105"
                     alt={feature.title}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/50 transition-colors duration-200 group-hover:via-black/80" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/25 transition-colors duration-200 group-hover:via-black/60" />
                 </div>
 
                 <div className="relative z-10 flex h-full flex-col p-8 text-white md:p-10">

@@ -93,7 +93,7 @@ export default function Hero() {
             }`}
           >
             <ViewLink
-              href="/about"
+              href="#whychoose"
               className={buttonVariants({ variant: "secondary", size: "lg" })}
             >
               About Us
