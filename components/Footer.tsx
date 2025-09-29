@@ -42,7 +42,7 @@ export default function Footer() {
                   className={buttonVariants({
                     variant: "link",
                     className:
-                      "group !no-underline relative whitespace-nowrap p-1 font-normal text-xs hover:text-tertiary sm:p-2 sm:text-base",
+                      "group !no-underline relative whitespace-nowrap p-1 font-normal text-white text-xs hover:text-tertiary sm:p-2 sm:text-base",
                   })}
                 >
                   <div className="absolute bottom-0 left-0 h-px w-0 bg-tertiary transition-all duration-300 group-hover:w-full" />

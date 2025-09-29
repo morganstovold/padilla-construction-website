@@ -50,7 +50,7 @@
 :root {
   --radius: 0.625rem;
 
-  --tertiary: oklch(0.8117 0.046 75.89);
+  --tertiary: oklch(79.233% 0.14822 87.099);
   --alternate: oklch(0.1261 0.0169 44.04);
   --primary: oklch(0.6231 0.188 259.81);
   --primary-foreground: oklch(0.97 0 0);

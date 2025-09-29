@@ -1,4 +1,4 @@
-import ContactUsSection from "@/components/ContactUsSection";
+import ContactUsSection from "@/components/ContactUs";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/Hero";
