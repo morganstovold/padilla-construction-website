@@ -1,7 +1,7 @@
 import { ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
-import BackgroundImage2 from "@/public/image-1.jpg";
-import BackgroundImage1 from "@/public/image-6.jpg";
+import BackgroundImage1 from "@/public/background-3.jpg";
+import BackgroundImage2 from "@/public/background-4.jpg";
 import { ViewLink } from "./ViewLink";
 
 export default function ServicesSection() {

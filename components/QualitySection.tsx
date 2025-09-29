@@ -1,6 +1,6 @@
 import { ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
-import BackgroundImage1 from "@/public/image-2.jpg";
+import BackgroundImage1 from "@/public/background-3.jpg";
 import { buttonVariants } from "./ui/button";
 import { ViewLink } from "./ViewLink";
 
