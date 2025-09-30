@@ -21,7 +21,7 @@ export default function Hero() {
   const parallaxOffset = scrollY * 0.5;
 
   return (
-    <section className="relative h-[calc(100vh-12rem)] w-full overflow-hidden bg-black text-white">
+    <section className="relative h-[calc(100dvh-12rem)] w-full overflow-hidden bg-black text-white">
       {/* Background Image with Parallax */}
       <div
         className="absolute inset-0"
