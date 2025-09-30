@@ -86,7 +86,7 @@
     @apply box-border;
   }
   html {
-    @apply scroll-smooth overflow-x-hidden h-dvh;
+    @apply scroll-smooth overflow-x-hidden h-svh;
   }
   body {
     @apply bg-background text-foreground font-body overflow-x-hidden;
