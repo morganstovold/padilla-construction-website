@@ -39,11 +39,6 @@ export default function RootLayout({
       <head>
         <StructuredData data={businessSchema} />
         <meta name="description" content={siteConfig.description} />
-        <meta property="og:image" content="<generated>" />
-        <meta property="og:image:alt" content="About Acme" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
       </head>
       <body
         className={`${robotoCondensed.variable} ${poppins.variable} antialiased`}

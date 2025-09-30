@@ -9,7 +9,6 @@ export function generateLocalBusinessSchema() {
     legalName: siteConfig.legalName,
     url: siteConfig.url,
     logo: `${siteConfig.url}/icon`,
-    image: `${siteConfig.url}/opengraph-image`,
     description: siteConfig.longDescription,
     foundingDate: siteConfig.founded,
     address: {

@@ -13,7 +13,6 @@ export function generateMetadata({
   title,
   description = siteConfig.description,
   url = siteConfig.url,
-  type = "website",
   noindex = false,
 }: SEOProps = {}): Metadata {
   const fullTitle = title
@@ -39,14 +38,6 @@ export function generateMetadata({
         follow: false,
       },
     }),
-    openGraph: {
-      type,
-      locale: "en_US",
-      url,
-      siteName: siteConfig.name,
-      title: fullTitle,
-      description,
-    },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
