@@ -3,8 +3,8 @@
 import { ChevronRightIcon } from "lucide-react";
 import * as motion from "motion/react-m";
 import Image from "next/image";
-import BackgroundImage2 from "@/public/background-6.jpg";
-import BackgroundImage1 from "@/public/interior-4.jpg";
+import BackgroundImage2 from "@/public/interior-4.jpg";
+import BackgroundImage1 from "@/public/kitchen-6.jpg";
 import { ViewLink } from "./ViewLink";
 
 export default function ServicesSection() {
