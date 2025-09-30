@@ -10,8 +10,8 @@ export const siteConfig = {
   founded: "2004", // Adjust if different
 
   branding: {
-    primaryColor: "#E5C07B", // tertiary color from your theme
-    backgroundColor: "#1F1F1F", // alternate color from your theme
+    primaryColor: "#ffffff", // tertiary color from your theme
+    backgroundColor: "#ffffff", // alternate color from your theme
   },
 
   contact: {
