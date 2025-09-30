@@ -42,7 +42,7 @@ export default function CTA() {
           </p>
           <div className="flex items-center justify-center gap-4">
             <ViewLink
-              href="#contact"
+              href="/contact"
               className={buttonVariants({
                 size: "lg",
                 className: "group",

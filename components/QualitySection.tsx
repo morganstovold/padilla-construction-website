@@ -78,7 +78,7 @@ export default function QualitySection() {
             </div>
 
             <div className="flex flex-wrap items-center gap-4">
-              <ViewLink href="#contact" className={buttonVariants()}>
+              <ViewLink href="/contact" className={buttonVariants()}>
                 Get Started
               </ViewLink>
               <ViewLink

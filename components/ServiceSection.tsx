@@ -95,7 +95,7 @@ export default function ServiceSection() {
 
             <div className="flex flex-wrap items-center gap-4">
               <ViewLink
-                href="#contact"
+                href="/contact"
                 className={buttonVariants({ variant: "secondary" })}
               >
                 Get Started
